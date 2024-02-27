@@ -26,12 +26,6 @@ index d185c45f619..b0cce88be66 100644
      # having cython here will create wheels that are platform dependent.
      "cython==0.29.36",
  ]
- 
- 
- # legacy installation is needed to generate `apache_beam.portability.api` package.
--build-backend = "setuptools.build_meta"
-\ No newline at end of file
-+build-backend = "setuptools.build_meta"
 diff --git a/sdks/python/setup.py b/sdks/python/setup.py
 index 7e6d2217d75..277fec1cf2f 100644
 --- a/sdks/python/setup.py
